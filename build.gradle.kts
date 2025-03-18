@@ -45,6 +45,10 @@ tasks.processResources {
 
 val prodPlugins = runPaper.downloadPluginsSpec {
     modrinth("terra", "6.6.1-BETA-bukkit")
+    modrinth("multiverse-core", "4.3.15-pre.2")
+    modrinth("multiverse-inventories", "4.2.7-pre")
+    modrinth("multiverse-portals", "4.3.0-pre")
+    modrinth("multiverse-netherportals", "4.3.0-pre.3")
 }
 
 val testPlugins = runPaper.downloadPluginsSpec {
